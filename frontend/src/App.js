@@ -27,16 +27,8 @@ const App = () => {
   };
 
   return (
-    <div
-      style={{
-        display: "flex",
-        justifyContent: "center",
-        alignContent: "center",
-        alignItems: "center",
-        flexDirection: "column",
-      }}
-    >
-      <div style={{ display: "flex", width: "400px", flexWrap: "wrap" }}>
+    <div className="center">
+      <div className="wordBox">
         {words.map((word, i) => (
           <Word
             key={i}
