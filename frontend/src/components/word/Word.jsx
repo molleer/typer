@@ -1,4 +1,5 @@
 import "./Word.style.css";
+import * as prop from "prop-types";
 
 const Word = ({ expected, got, current, done, ...props }) => {
   return (
@@ -17,6 +18,13 @@ const Word = ({ expected, got, current, done, ...props }) => {
       {expected}
     </span>
   );
+};
+
+Word.propTypes = {
+  expected: prop.string,
+  got: prop.string,
+  current: prop.bool,
+  done: prop.bool,
 };
 
 export default Word;
