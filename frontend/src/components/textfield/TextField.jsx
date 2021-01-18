@@ -1,9 +1,10 @@
 import "./TextField.style.css";
 import * as prop from "prop-types";
 
-const TextField = ({ value, onChange }) => {
+const TextField = ({ value, onChange, ...props }) => {
   return (
     <input
+      {...props}
       value={value}
       onChange={e => onChange(e.target.value)}
       className="textfield"
