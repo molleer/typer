@@ -1,7 +1,8 @@
 .wordBox {
   display: flex;
-  width: 400px;
+  width: 300pt;
   flex-wrap: wrap;
+  overflow: hidden;
 }
 
 .center {

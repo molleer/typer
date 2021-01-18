@@ -4,8 +4,7 @@ import TextField from "./components/textfield";
 import Word from "./components/word";
 
 const text =
-  "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.";
-
+  "this is a simple paragraph that is meant to be nice and easy to type which is why ther will be mommas no periods or ant capital letter so i guess this means that it cannot really be considered a paragraph but just a series of run on sentences this should help your get faster at typing as im trying not to use too many difficult words in it although i think the i might start making it harder by including some more difficult letters I'm typing pretty quickly so forgive me for an mistakes i think that i will not just tell you a story about the time i went to the zoo and found a monkey and a fox playing together they were so cyte and i think that they were not supposed to be in the same cage byt they somehow were and i loved watching them horse around fogive the pun well i hope that it has been highly enjoyable tyoing this paragraph and i wish you the best of luck getting the best score that you possibly can";
 const App = () => {
   const [words, setWords] = useState(
     [...text.toLowerCase()]
