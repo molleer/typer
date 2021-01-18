@@ -1,0 +1,8 @@
+.textfield {
+  background-color: rgba(256, 256, 256, 0.1);
+  border-color: gray;
+  border-radius: 0.3rem;
+  color: white;
+  padding: 0.3rem;
+  border-width: 1px;
+}
